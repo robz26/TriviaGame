@@ -1,0 +1,50 @@
+.row {
+    
+    border: 2px solid black;
+    margin: 3%;
+}
+.Frame {
+    font-family: GoT;
+    height: 100%;
+    text-align: center;
+}
+.Name {
+    height: 150px;
+}
+.TimerZone {
+    height: 60px;
+}
+.Question {
+    height: 150px;
+}
+.Answers {
+    height: 250px;
+}
+.AnswerChoices{
+    height: 30px;
+    padding: 4px 4px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#Title, #TimerNumber {
+    line-height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+#Title{
+    font-size: 48px;
+}
+#TimerNumber{
+    line-height: 60px;
+    font-size: 24px;
+}
+#QuestionChoice{
+    line-height: 150px;
+    display: inline-block;
+    vertical-align: middle;
+}
+@font-face {
+    font-family: GoT;
+    src: url(../../../../Fonts/Game\ of\ Thrones.ttf);
+}
